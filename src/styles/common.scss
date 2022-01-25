@@ -1,0 +1,33 @@
+@import "variables";
+
+:global {
+  .label {
+    display: inline-block;
+    padding: 0 7px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    border: 1px solid transparent;
+    border-radius: 2em;
+    margin-top: 5px;
+    text-transform: capitalize;
+
+    &.staffBlock {
+      text-transform: uppercase;
+      color: var(--staff-label-color);
+      border-color: var(--staff-label-color);
+    }
+
+    &.proBlock {
+      color: var(--pro-label-color);
+      border-color: var(--pro-label-color);
+    }
+
+    &.labelType {
+      color: var(--color-fg-muted);
+      border-color: var(--color-border-default);
+      text-transform: lowercase;
+      margin: 0;
+    }
+  }
+}

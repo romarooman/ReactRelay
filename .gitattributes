@@ -1,0 +1,5 @@
+/.yarn/releases/** binary
+/.yarn/plugins/** binary
+
+# do convert LF to CRLF on checkout
+* text=auto eol=lf

@@ -1,0 +1,115 @@
+@use "../../styles/variables.scss";
+
+.sideBar {
+  width: 296px;
+  margin: 0 32px 0 0;
+}
+.avatar {
+  border-radius: 50%;
+  border: 1px solid;
+  height: auto;
+  box-shadow: 0 0 0 1px;
+}
+.vcardNamesContainer {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+}
+.name {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 24px;
+  color: variables.$name-color;
+}
+.fullName {
+  font-size: 26px;
+  line-height: 1.25;
+}
+.buttonField {
+  display: flex;
+}
+.buttonFollow {
+  color: variables.$black;
+  background-color: #f6f8fa;
+  font-size: 14px;
+  padding: 5px 16px;
+  width: 100%;
+  margin: 0;
+  position: relative;
+  display: inline-block;
+  font-weight: 500;
+  line-height: 20px;
+  white-space: nowrap;
+  cursor: pointer;
+  border-radius: 6px;
+}
+.buttonFollow:hover {
+  border-color: rgb(27 31 36 / 15%);
+}
+.buttonSponsor {
+  color: variables.$black;
+  background-color: #f6f8fa;
+  font-size: 14px;
+  padding: 5px 16px;
+  width: 100%;
+  margin: 0;
+  position: relative;
+  display: inline-block;
+  font-weight: 500;
+  line-height: 20px;
+  white-space: nowrap;
+  cursor: pointer;
+  border-radius: 6px;
+  margin-left: 8px;
+}
+.buttonSponsor:hover {
+  border-color: rgb(27 31 36 / 15%);
+}
+.bio {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 16px 0 16px 0;
+  font-size: 16px;
+}
+.bioText {
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+.socialNetwork {
+  display: flex;
+  margin-bottom: 16px;
+  align-items: center;
+}
+.socialNetwork a:nth-child(3) {
+  margin-right: 5px;
+}
+
+.following {
+  color: variables.$black;
+}
+.followersNumber {
+  color: variables.$black;
+  margin: 0 5px 0 5px;
+}
+.connectingFiled {
+  display: flex;
+  color: #24292f;
+  align-items: center;
+}
+.refField {
+  display: flex;
+  color: #24292f;
+}
+.location:hover {
+  text-decoration: underline;
+}
+.textFiled {
+  margin-left: 7px;
+  padding-top: 4px;
+}
+
+.iconLocation {
+  margin-top: 5px;
+}

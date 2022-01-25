@@ -1,0 +1,5 @@
+__generated__
+build
+coverage
+.husky
+.yarn

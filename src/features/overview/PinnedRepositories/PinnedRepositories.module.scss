@@ -1,0 +1,76 @@
+@use "./../../../styles/variables.scss";
+.card {
+  display: flex;
+  padding-right: 8px;
+  padding-left: 8px;
+  align-content: stretch;
+  width: 50%;
+}
+
+.flex1 {
+  flex: 1;
+}
+
+.icons {
+  margin-right: 4px;
+  display: inline-block;
+  overflow: visible;
+  vertical-align: text-bottom;
+  fill: currentColor;
+}
+
+.repoLanguageText {
+  margin-right: 16px;
+  font-size: 12px;
+}
+
+.marginRigt2 {
+  margin-right: 8px;
+}
+.marginRigt4 {
+  margin-right: 8px;
+}
+
+.marginRigt8 {
+  margin-left: 16px;
+}
+
+.repoLanguageColor {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border: 1px solid var(--color-primer-border-contrast);
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.pinndedcards {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  margin-right: -8px;
+  margin-left: -8px;
+}
+
+.label {
+  display: inline-block;
+  padding: 0 7px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  border: 1px solid transparent variables.$border-color;
+  border-radius: 2em;
+}
+
+.pinnedItemText {
+  font-size: 12px;
+  margin-bottom: 16px;
+  margin-top: 8px;
+}
+
+a {
+  color: variables.$blue;
+  text-decoration: none;
+}
